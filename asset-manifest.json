@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Hackathon-React/static/css/main.bf81d7a7.chunk.css",
+    "main.css": "/Hackathon-React/static/css/main.515fd16f.chunk.css",
     "main.js": "/Hackathon-React/static/js/main.34a4e7ae.chunk.js",
     "main.js.map": "/Hackathon-React/static/js/main.34a4e7ae.chunk.js.map",
     "runtime-main.js": "/Hackathon-React/static/js/runtime-main.6b9d7cd1.js",
@@ -9,10 +9,10 @@
     "static/js/2.a6196863.chunk.js": "/Hackathon-React/static/js/2.a6196863.chunk.js",
     "static/js/2.a6196863.chunk.js.map": "/Hackathon-React/static/js/2.a6196863.chunk.js.map",
     "index.html": "/Hackathon-React/index.html",
-    "precache-manifest.481d5a4064093dca0c8b180c17c20e4f.js": "/Hackathon-React/precache-manifest.481d5a4064093dca0c8b180c17c20e4f.js",
+    "precache-manifest.846b4a3a106b32c0828650127fdc1946.js": "/Hackathon-React/precache-manifest.846b4a3a106b32c0828650127fdc1946.js",
     "service-worker.js": "/Hackathon-React/service-worker.js",
     "static/css/2.510409cd.chunk.css.map": "/Hackathon-React/static/css/2.510409cd.chunk.css.map",
-    "static/css/main.bf81d7a7.chunk.css.map": "/Hackathon-React/static/css/main.bf81d7a7.chunk.css.map",
+    "static/css/main.515fd16f.chunk.css.map": "/Hackathon-React/static/css/main.515fd16f.chunk.css.map",
     "static/media/CityHyperLapse.mp4": "/Hackathon-React/static/media/CityHyperLapse.6802b45c.mp4",
     "static/media/airbnb-2.svg": "/Hackathon-React/static/media/airbnb-2.eb11dc33.svg"
   },
@@ -20,7 +20,7 @@
     "static/js/runtime-main.6b9d7cd1.js",
     "static/css/2.510409cd.chunk.css",
     "static/js/2.a6196863.chunk.js",
-    "static/css/main.bf81d7a7.chunk.css",
+    "static/css/main.515fd16f.chunk.css",
     "static/js/main.34a4e7ae.chunk.js"
   ]
 }
