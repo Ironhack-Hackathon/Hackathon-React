@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Listing from "./components/Listing";
+import GoogleMaps from "./components/Maps"
+import GoogleMapReact from 'google-map-react';
 
 function App() {
   return (
@@ -17,12 +19,10 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
-          Osheit >>>> hi
-
-          Alex >>>>> Wassup
         </a>
         <Listing />
+        <h1>MAPS DIV</h1>
+        <GoogleMaps/>
       </header>
     </div>
   );
