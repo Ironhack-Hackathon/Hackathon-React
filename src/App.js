@@ -17,6 +17,7 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          Osheit >>>> hi
         </a>
       </header>
     </div>
