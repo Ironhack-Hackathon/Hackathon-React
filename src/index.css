@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Economica%7CJosefin+Sans&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Economica";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,19 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.bg-photo{
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: -2;
-  
+.navlinks{
+ margin-left: 1150px
 }
 
 .search{
   width: 500px;
   height: 500px;
   border: 2px solid black
+}
+#help-button{
+  font-weight: bolder
+}
+.navbar-brand{
+  color: white
 }
 
 .papa-div{
@@ -39,13 +40,18 @@ code {
   justify-content: center;
 }
 #search-bar{
-  width: 300px
+  width: 325px;
+  border-radius: 3px;
+  opacity: .80;
+  border: 0px;
+  padding: 10px;
 }
 
 .city-header{
   color: white;
   font-weight: bolder;
-  font-size: 90px
+  font-size: 90px;
+  font-family: "Josefin sans"
 }
 
 .container{
@@ -60,12 +66,20 @@ code {
   position:absolute;
   top:0;
   left:0;
-  width:100vw;
-  height:100vh;
+
+  width:100%;
+  height:100%;
+
   overflow:hidden;
 }
 
 .fullscreen-video-wrap video{
   min-height:100%;
   min-width:100%;
+  z-index: -3;
+}
+
+#logo{
+  height: 95px;
+  margin-bottom: 20px
 }
