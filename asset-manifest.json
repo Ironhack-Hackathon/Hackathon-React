@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/Hackathon-React/static/css/main.b100e6da.chunk.css",
-    "main.js": "/Hackathon-React/static/js/main.9b68986e.chunk.js",
-    "main.js.map": "/Hackathon-React/static/js/main.9b68986e.chunk.js.map",
+    "main.js": "/Hackathon-React/static/js/main.fd03ec2a.chunk.js",
+    "main.js.map": "/Hackathon-React/static/js/main.fd03ec2a.chunk.js.map",
     "runtime-main.js": "/Hackathon-React/static/js/runtime-main.6b9d7cd1.js",
     "runtime-main.js.map": "/Hackathon-React/static/js/runtime-main.6b9d7cd1.js.map",
-    "static/js/2.ba1a6784.chunk.js": "/Hackathon-React/static/js/2.ba1a6784.chunk.js",
-    "static/js/2.ba1a6784.chunk.js.map": "/Hackathon-React/static/js/2.ba1a6784.chunk.js.map",
+    "static/js/2.0ec640f8.chunk.js": "/Hackathon-React/static/js/2.0ec640f8.chunk.js",
+    "static/js/2.0ec640f8.chunk.js.map": "/Hackathon-React/static/js/2.0ec640f8.chunk.js.map",
     "index.html": "/Hackathon-React/index.html",
-    "precache-manifest.8eda8380cdba26e6e66f43b38e637f74.js": "/Hackathon-React/precache-manifest.8eda8380cdba26e6e66f43b38e637f74.js",
+    "precache-manifest.2ec53b9dfa7730378613fe5ecad307cd.js": "/Hackathon-React/precache-manifest.2ec53b9dfa7730378613fe5ecad307cd.js",
     "service-worker.js": "/Hackathon-React/service-worker.js",
     "static/css/main.b100e6da.chunk.css.map": "/Hackathon-React/static/css/main.b100e6da.chunk.css.map",
     "static/media/logo.svg": "/Hackathon-React/static/media/logo.25bf045c.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.6b9d7cd1.js",
-    "static/js/2.ba1a6784.chunk.js",
+    "static/js/2.0ec640f8.chunk.js",
     "static/css/main.b100e6da.chunk.css",
-    "static/js/main.9b68986e.chunk.js"
+    "static/js/main.fd03ec2a.chunk.js"
   ]
 }
