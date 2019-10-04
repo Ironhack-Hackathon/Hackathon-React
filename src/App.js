@@ -12,10 +12,18 @@ import { Switch, Route, Link } from "react-router-dom";
 function App() {
   
   return (
+    <Switch>
+            <Route path="/search" component={Listing}></Route>
+          
     <div className="main">
       <Video />
       <Navbar />
       <div className="papa-div container">
+
+
+
+
+
         <div className="row">
           <div className="col-12 search-div">
             <img id="logo" src={logo} alt=""></img>
@@ -28,20 +36,19 @@ function App() {
 
             
             <Route>
-            <Link to={'/searchNEW'}>
-            <button>Search</button>
+            <Link to={'/search'}>
+            <button id='button'>Search</button>
             </Link>
             </Route>
-
-
-          <Switch>
-            <Route path="/searchNEW" component={Listing}></Route>
-          </Switch>
 
           </div>
         </div>
       </div>
+
+      
+ 
     </div>
+    </Switch>
   );
 }
 
