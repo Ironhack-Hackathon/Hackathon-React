@@ -34,9 +34,6 @@ class GoogleMaps extends Component {
           <Interest1 lat={52.5331462} lng={13.4016983} text="⬇️" />
           <Interest2 lat={52.4931462} lng={13.4616983} text="⬇️" />
           <Interest3 lat={52.5181462} lng={13.3616983} text="⬇️" />
-
-
-
         </GoogleMapReact>
       </div>
     );
