@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://Ironhack-Hackathon.github.io/Hackathon-React",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gh-pages": "^2.1.1",
     "google-map-react": "^1.1.5",
     "react": "^16.10.2",
