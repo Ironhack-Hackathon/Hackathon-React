@@ -5,25 +5,14 @@ import GoogleMaps from "./components/Maps";
 import berlin from "./images/berlin.jpg";
 import Video from "./components/Video";
 import logo from "./images/airbnb-2.svg"
+import Navbar from './components/Navbar'
+
 
 function App() {
   return (
     <div className="main">
     <Video />
-      <nav className="navbar navbar-expand-lg">
-
-        <div className="navlinks">
-          <a id="help-button" className="navbar-brand" href="#">
-            Help
-          </a>
-          <a className="navbar-brand" href="#">
-            Sign Up
-          </a>
-          <a className="navbar-brand" href="#">
-            Login
-          </a>
-        </div>
-      </nav>
+    <Navbar />
       <div className="papa-div container">
         
         <div className="row">

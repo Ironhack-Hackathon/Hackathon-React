@@ -1,8 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Economica%7CJosefin+Sans&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Economica";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -40,14 +40,18 @@ code {
   justify-content: center;
 }
 #search-bar{
-  width: 300px;
-  border-radius: 5px
+  width: 325px;
+  border-radius: 3px;
+  opacity: .80;
+  border: 0px;
+  padding: 10px;
 }
 
 .city-header{
   color: white;
   font-weight: bolder;
-  font-size: 90px
+  font-size: 90px;
+  font-family: "Josefin sans"
 }
 
 .container{
@@ -74,5 +78,6 @@ code {
 }
 
 #logo{
-  height: 95px;;
+  height: 95px;
+  margin-bottom: 20px
 }
