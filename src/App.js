@@ -1,29 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 import Listing from "./components/Listing";
-import GoogleMaps from "./components/Maps"
-// import GoogleMapReact from 'google-map-react';
+
+import GoogleMaps from "./components/Maps";
+import berlin from "./images/berlin.jpg";
+import Video from "./components/Video";
+import logo from "./images/airbnb-2.svg"
+import Navbar from './components/Navbar'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-        </a>
-        <Listing />
-        <h1>MAPS DIV</h1>
-        <GoogleMaps/>
-      </header>
+    <div className="main">
+    <Video />
+    <Navbar />
+      <div className="papa-div container">
+        
+        <div className="row">
+          <div className="col-12 search-div">
+          <img id="logo" src={logo} alt=""></img>
+          <h3 className="city-header">BERLIN</h3>
+          <input id="search-bar" type="text" placeholder="Search Berlin..."></input>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
