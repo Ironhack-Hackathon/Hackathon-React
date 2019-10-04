@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Listing from "./components/Listing";
+
 import GoogleMaps from "./components/Maps";
 import berlin from "./images/berlin.jpg";
 import Video from "./components/Video";
