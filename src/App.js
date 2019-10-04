@@ -1,16 +1,12 @@
 import React from "react";
 import "./App.css";
 import Listing from "./components/Listing";
-
-
 import Video from "./components/Video";
 import logo from "./images/airbnb-2.svg";
 import Navbar from "./components/Navbar";
 import { Switch, Route, Link } from "react-router-dom";
 
-
 function App() {
-  
   return (
     <Switch>
             <Route path="/search" component={Listing}></Route>
@@ -34,13 +30,11 @@ function App() {
               placeholder="Search Berlin..."
             ></input>
 
-            
             <Route>
             <Link to={'/search'}>
             <button id='button'>Search</button>
             </Link>
             </Route>
-
           </div>
         </div>
       </div>
