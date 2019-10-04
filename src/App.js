@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Listing from "./components/Listing";
 import GoogleMaps from "./components/Maps"
-import GoogleMapReact from 'google-map-react';
+// import GoogleMapReact from 'google-map-react';
 
 function App() {
   return (
