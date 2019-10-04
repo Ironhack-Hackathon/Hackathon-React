@@ -18,6 +18,9 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          Osheit >>>> hi
+
+          Alex >>>>> Wassup
         </a>
         <Listing />
       </header>
