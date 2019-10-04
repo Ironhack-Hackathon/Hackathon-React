@@ -2,14 +2,15 @@ import React from "react";
 import "./App.css";
 import Listing from "./components/Listing";
 
-import GoogleMaps from "./components/Maps";
-import berlin from "./images/berlin.jpg";
+
 import Video from "./components/Video";
 import logo from "./images/airbnb-2.svg";
 import Navbar from "./components/Navbar";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
+
 
 function App() {
+  
   return (
     <div className="main">
       <Video />
@@ -24,6 +25,19 @@ function App() {
               type="text"
               placeholder="Search Berlin..."
             ></input>
+
+            
+            <Route>
+            <Link to={'/searchNEW'}>
+            <button>Search</button>
+            </Link>
+            </Route>
+
+
+          <Switch>
+            <Route path="/searchNEW" component={Listing}></Route>
+          </Switch>
+
           </div>
         </div>
       </div>
