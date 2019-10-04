@@ -6,7 +6,7 @@ class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-lg">
         <div className="navlinks">
-          <a id="help-button" className="navbar-brand" href="#">
+          <a id="help-button" className="navbar-brand" href="https://www.airbnb.com/help">
             Help
           </a>
           <a className="navbar-brand" href="#">
